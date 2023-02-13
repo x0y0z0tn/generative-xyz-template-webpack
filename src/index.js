@@ -3,4 +3,3 @@ import {traits} from "./traits";
 
 components();
 traits();
-

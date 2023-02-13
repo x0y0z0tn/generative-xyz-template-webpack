@@ -6,7 +6,7 @@ function T1(rand) {
     if (rand > 0.5) {
         return true;
     } else {
-        return false
+        return false;
     }
 }
 
@@ -16,8 +16,8 @@ function T1(rand) {
 function traits() {
     window.$generativeTraits = {
         "T1": T1(rand),
-    }
-    console.log(window.$generativeTraits)
+    };
+    console.log(window.$generativeTraits);
 }
 
 // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Your traits here ↑↑↑↑↑↑↑↑↑↑↑↑↑↑
